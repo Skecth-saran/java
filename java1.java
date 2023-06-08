@@ -1,4 +1,3 @@
-import java.util.*;
 
 class main {
     public static int maxSum(int stack1[], int stack2[], int stack3[], int n1, int n2, int n3) {
@@ -12,6 +11,7 @@ class main {
             sum3 += stack3[i];
         int top1 = 0, top2 = 0, top3 = 0;
         int ans = 0;
+
         while (true) {
             if (top1 == n1 || top2 == n2 || top3 == n3)
                 return 0;
