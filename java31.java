@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Array_list7 {
+public class Array_list {
     public static void main(String[] args) {
         ArrayList<String> list_Strings = new ArrayList<String>();
         list_Strings.add("Red");
